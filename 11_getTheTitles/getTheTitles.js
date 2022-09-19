@@ -1,5 +1,5 @@
-const getTheTitles = function() {
-
+const getTheTitles = function (anArr) {
+  return anArr.map((arr) => arr.title);
 };
 
 // Do not edit below this line
